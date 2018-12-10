@@ -1,35 +1,54 @@
 /******* desktop version ***********/
 @media screen and (min-width: 481px) {
 
+.current{
+     color: blue;
+  }
+
+hr {
+  background-color: #b80033;
+  height: 10vh;
+  width: 100%;
+  display: block;
+  opacity: .9;
+}
 
  header{
-  background: url("images/trailerpic1.jpeg");
+   margin-top:  -8%;
+  /*background: url("images/trailerpic1.jpeg");*/
   width: 100vw;
-  height: 100vh;
-  background-size: cover;
+  /*height: 100vh;*/
+  /*background-size: cover;*/
  }
 
  h3{
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
+  text-align: center;
+  padding: 5%;
  }
- a{
-  text-decoration: none;
 
+ a {
+  text-decoration: none;
  }
+
+h3:hover {
+  color: black;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
  .tabs{
   display: flex;
   justify-content: space-around;
   background-color: #b80033;
-  opacity: .6;
-
   list-style: none;
   height: 15vh;
  }
 
+
 }
-
-
 /******  mobile-friendly  ******/
 @media screen and (max-width: 480px) {
 

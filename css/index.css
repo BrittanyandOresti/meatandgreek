@@ -1,0 +1,8 @@
+body {
+  background-color: lightgray;
+}
+
+.logo img {
+  width: 70vw;
+  height: 50vh;
+}
