@@ -1,6 +1,9 @@
 html{
  background: url("../images/MolonLabe.jpg");
  background-size: cover;
+ width: 100vw;
+ height: 85vh;
+ background-position: center;
  background-repeat: no-repeat;
 }
 iframe{
