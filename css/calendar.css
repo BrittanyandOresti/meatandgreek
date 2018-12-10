@@ -1,0 +1,11 @@
+html{
+ background: url("../images/MolonLabe.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+iframe{
+ opacity: .7;
+ width: 80vw;
+ height: 80vh;
+ padding-left: 10%;
+}
