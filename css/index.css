@@ -1,13 +1,127 @@
+/******  mobile-friendly  ******/
+@media screen and (max-width: 480px) {
+  body {
+    background-color: white;
+  }
+  .Row1 {
+    display: flex;
+    /*flex-direction: column;*/
+  }
+
+  .Row1_pic {
+    width: 90vw;
+  }
+
+
+
+}
+
+
+/************** DESKTOP VERSION ******************/
+
 body {
+  background-color: #4C609A;
+    /*z-index: 1;*/
+}
+
+#header_logo {
+  width: 15vw;
+  margin-right: 65vw;
   background-color: lightgray;
+  padding: 15px;
 }
 
-.logo img {
-  width: 70vw;
-  height: 50vh;
-  margin-left: 15vw;
+
+.Row1 {
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 1%;
+height: 350px;
 }
 
-h1 {
+.Row2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 350px;
+}
+
+h4 {
+  color: white;
+  background-color: #2a3026;
+  font-size: 25px;
+  margin-right: 50%;
+  padding: 10px;
+  margin-top: 250px;
+  font-family: 'Merriweather';
   text-align: center;
+}
+
+
+#Find_us {
+background-image: url("../images/raleigh_food_truck.jpg"); background-size: cover;
+background-position: center;
+/*height: 450px;*/
+margin-left: 1.5%;
+flex: 3;
+}
+
+#Book_us {
+  background-image: url("../images/gyro_plate.jpg");
+  background-size: cover;
+  background-position: bottom;
+  /*height: 450px;*/
+  margin-left: 1.5%;
+  flex: 1;
+}
+
+#Calendar {
+  background-image: url("../images/Santorini.jpg");
+  background-size: cover;
+  background-position: bottom;
+  /*height: 450px;*/
+  margin-left: 1.5%;
+  flex: 1;
+}
+
+/*   Start of Row 2   */
+
+#Menu {
+  background-image: url("../images/falafully_yours.jpg");
+  background-size: cover;
+  background-position: top;
+  /*height: 450px;*/
+    width: 450px;
+  /*flex: 1;*/
+}
+
+#About_us {
+  background-image: url("../images/baklava.jpg");
+  background-size: cover;
+  background-position: center;
+  /*height: 450px;*/
+  width: 450px;
+  /*flex: 1;*/
+  margin-left: 1.5%;
+}
+
+#Catering {
+  background-image: url("../images/catering.jpeg");    background-size: cover;
+  /*background-position: center;*/
+   flex: 1;
+   width: 450px;
+   margin-left: 1.5%;
+}
+
+#Our_friends {
+  background-image: url("../images/beer_truck.jpg");
+  background-size: cover;
+  /*height: 450px;*/
+  flex: 1;
+  margin-left: 1.5%;
+  image-orientation: left;
+  background-position: bottom;
+}
+
+footer {
+  margin-top: 3vh;
 }

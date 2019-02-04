@@ -1,0 +1,25 @@
+/************ DESKTOP VERSION************/
+body {
+  /*background-color: 000080;*/
+  z-index: 1;
+}
+
+h1 {
+    margin-top: -5vh;
+}
+
+#header_logo {
+  width: 15vw;
+}
+
+ h1 {
+   text-align: center;
+ }
+
+#family {
+  height: 60vh;
+  width: 50vw;
+  display: block;
+  transform: rotate(180deg);
+  margin-left: 25vw;
+}
