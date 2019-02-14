@@ -1,0 +1,71 @@
+.tabs {
+  background-color: white;
+  padding-bottom: 10vh;
+  border-bottom: 5px solid #b80033;
+  position: fixed;
+  width: 100vw;
+  overflow: hidden;
+  transition: 0.4s;
+  top: 0;
+  margin-top: -5vh;
+}
+
+#header_logo {
+  width: 17vw;
+  padding: 15px;
+  margin-top: 5vh;
+}
+
+h3 {
+  margin-top: 10vh;
+  font-size: 1.3em;
+}
+
+h3:hover {
+  color: black;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.mySlides {
+  width: 90%;
+}
+
+.mySlides p {
+  float: left;
+  padding: 25px;
+  font-size: 1.5em;
+}
+
+.carousel_homepage {
+    border-bottom: 15px solid #b80033;
+    margin-top: 30vh;
+}
+
+.carousel_homepage img {
+  height: 75vh;
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#dolmathes {
+  width: 50vw;
+  margin-left: 15%;
+}
+
+#tiramisu {
+  width: 45vw;
+  height: 75vh;
+}
+
+#Baklava {
+height: 75vh;
+width: 55vw;
+}
+
+#dolmathes_description {
+  float: right;
+}

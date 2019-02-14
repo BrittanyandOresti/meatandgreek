@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Meat and Greek Truck Home</title>
+    <head>
+
+     <link rel="shortcut icon" href="../images/logo_final.png" />
+     <!-- </head> -->
+     <title>Meat and Greek Truck - Home</title>
+   <!-- Header and Footer CSS sheet:  main.css -->
+     <link rel="stylesheet" href="../main.css">
+
+   <!-- CSS for specifically this body of index.html -->
+     <link rel="stylesheet" href="../css/index2.css">
+
+     <!-- Icon Library for the social media icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+     <meta charset="utf-8">
+     <meta name="description" content="Meat and Greek truck in Southern Pines NC  offers the best authentic greek food around and we come to you">
+     <meta name="keywords" content="meat and greek southern pines sandford Raleigh Pinehurst Aberdeen,foodtruck southern pines sandford Raleigh Pinehurst Aberdeen, catering southern pines sandford Raleigh Pinehurst Aberdeen, greek food southern pines sandford Raleigh Pinehurst Aberdeen, food sandford Raleigh Pinehurst Aberdeen, gyro sandford southern pines Raleigh Pinehurst Aberdeen, event sandford southern pines Raleigh Pinehurst Aberdeen, tzatsiki southern pines sandford Raleigh Pinehurst Aberdeen">
+
+     <meta name="author" content="MeatandGreekTruck, Oresti Arsi, Brittany Arsi">
+
+    </head>
+    <header>
+      <hr>
+
+    <ul class="tabs" id="tabs" >
+     <li><a class="current" href="#"><h3>HOME</h3></a></li>
+     <!-- <li><a href="html/FindUs.html"><h3>FIND<br>US</h3></a></li> -->
+     <li><a href="html/BookUs.html"><h3>BOOK<br>US</h3></a></li>
+     <li><a href="html/calendar.html"><h3>CALENDAR</h3></a></li>
+      <li><a href="index.html"><img id="header_logo" src="../images/logo_final.png"# alt="Meat_and_GreeK_Truck_logo"></a></li>
+     <li><a href="html/catering.html"><h3>CATERING</h3></a></li>
+     <li><a href="html/menu.html"><h3>MENU</h3></a></li>
+     <li><a href="html/about.html"><h3>ABOUT</h3></a></li>
+     <!-- <li><a href="html/friends.html"><h3>OUR <br> FRIENDS</h3></a></li> -->
+
+    </ul>
+
+   </header>
+
+
+  <body>
+
+    <div class="carousel_homepage">
+
+      <div class="mySlides">
+        <p>Meat and Greek Truck!</p>
+        <img src="../images/raleigh_food_truck.jpg" alt="Meat and Greek Food Truck" >
+      </div>
+
+      <div class="mySlides">
+        <p>Rotating desserts like Tiramisu...</p>
+        <img id="tiramisu" src="../images/tiramisu.jpg" alt="">
+      </div>
+
+      <div class="mySlides">
+        <p>and flaky Baklava!</p>
+        <img  id="Baklava" src="../images/baklava.jpg" alt="">
+      </div>
+
+      <div class="mySlides">
+        <p>Dolmathes</p>
+        <img  id="dolmathes" src="../images/dolmathes_lemon.jpg" alt="">
+        <!-- <p id="dolmathes_description">Stuffed grape leaves with a lemon dill sauce.</p> -->
+      </div>
+
+    </div>
+
+    <div class="Second_homepage">
+      <p>So many options to Meat and Greek! </p>
+      <p>Offering not only food truck bookings but Caterings as well!</p>
+    </div>
+
+
+
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+
+    <script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("tabs").style.padding = "30px 10px";
+    document.getElementById("header_logo").style.width = "10vw";
+  } else {
+    document.getElementById("tabs").style.padding = "80px 10vh";
+    document.getElementById("header_logo").style.width = "19vw";
+  }
+}
+  </script>
+
+
+  </body>
+</html>

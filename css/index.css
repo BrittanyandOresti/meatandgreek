@@ -20,14 +20,17 @@
 /************** DESKTOP VERSION ******************/
 
 body {
-  background-color: #4C609A;
-    /*z-index: 1;*/
+/*background-image: url(../images/blue_sky.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 150vh;*/
+background-color: white;
 }
 
 #header_logo {
   width: 15vw;
   margin-right: 65vw;
-  background-color: lightgray;
   padding: 15px;
 }
 
